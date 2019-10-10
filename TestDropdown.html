@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+           
+       
+       
+       .dropdown {
+                position: relative;
+                display: inline-block;
+                float: left;
+                border: 2px solid white;
+                
+            }
+            .dropdown-content {
+                position: absolute;   
+                display: none;
+                
+                
+
+            }
+            .dropdown:hover .dropdown-content  {
+                display:block;   
+                            
+            }
+            .dropdown:hover a {
+                display:block;
+                width:250px;
+                background-color: grey;
+                color: white;
+                text-align: center;
+                text-decoration: none;
+                
+                padding: 10px;
+            }
+            .dropdown:hover a:hover {
+                background-color: rgb(64, 194, 255);
+                color: white;
+                
+                
+            }
+            .btn {
+                padding: 0px;
+                width: 220px;               
+                background-color: #3c3c3c;
+                cursor: pointer;
+                border: unset;
+                border-right: 2px solid whitesmoke;
+                font-size: 30px;
+                
+                letter-spacing: 5px;
+                color: white;
+              
+            }
+            .btn:hover {
+                background-color: rgb(22, 181, 255);
+            }
+            .out {
+        position: relative;
+        display: inline-block;
+                 }
+    .in {
+        position: absolute;   
+        display: none;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        left: 20px;
+    }
+    .out:hover .in {
+        display:block;
+        color: white;
+        font-size: 20px;
+    }
+    .button {
+        width: 200px;
+        height: 40px;
+    }
+    .button:hover {
+        background-color: skyblue;
+    }
+    .contrianner {
+        padding: 23%;
+        padding-left:30%;
+        
+    }
+
+    
+    </style>
+</head>
+<body class="bg">
+    <div class="bg">
+    <div class="contrianner">
+        <div class="out">
+                <button class="button">กดแม้ๆ</button>
+                <div class="in"> Show Text  </div>
+        
+              
+            </div>
+        <div class="dropdown">
+                <button class="btn"> <b> Dropdown1</b></button>
+                <div class="dropdown-content"> 
+                    <b>
+                        <a href="#" >Link1</a>
+                        <a href="#" >Link2</a>
+                        <a href="#" >Link3</a>
+                        <a href="#" >Link4</a>
+                    </b>
+                </div>
+        
+              
+         </div>
+         <div class="dropdown">
+                <button class="btn"> <b> Dropdown2</b></button>
+                <div class="dropdown-content"> <b>
+                        <a href="#">Link1</a>
+                        <a href="#" >Link2</a>
+                        <a href="#" >Link3</a>
+                        <a href="#" >Link4</a>                          
+                       
+                    </b>
+                </div>
+        
+               
+         </div>   <br> <br> <br>
+         
+          </div>
+  </div>
+</body>
+</html>

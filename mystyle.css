@@ -1,0 +1,88 @@
+body.bg {
+    margin: 0px;
+    padding: 0px;
+    background-color:#505050		;
+    height: 1040px;
+    font-family: 'Prompt', sans-serif;
+    
+      
+
+             }
+    ::-webkit-scrollbar {
+        width: 20px;
+        
+      }
+      ::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px rgb(80, 80, 80);
+        
+      }
+      ::-webkit-scrollbar-thumb {
+        background: rgb(80, 80, 80);
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: rgb(80, 80, 80);
+      }
+
+ a.link  {
+     text-decoration: none;
+     background-color: rgb(109, 172, 255);
+     display: block;
+   
+ }
+ a.link:hover {
+     font-size: 35px;     
+     border-radius: 20px;
+     background-color: rgb(0, 148, 247);
+     width: 100%;
+     border: 2px inset blue;
+     
+     
+     
+ }
+ a#home {
+     text-decoration: none;
+
+ }
+ b.bb {
+     text-shadow: 3px 2px white;
+ }
+ b#welcometop {
+     text-shadow: 5px 2px darkblue;
+ }
+ body.bgjava {
+    background-color:#6BC0F9;
+    font-size: 30px;
+    font-family: Quark;
+ }
+ fieldset {
+     border: 4px solid blue;
+     
+ }
+ legend {
+    border:4px solid blue;
+    padding-top: 10px;
+}
+h1#h1java {
+    letter-spacing: 10px;
+    font-size: 70px;
+    text-shadow: 2px 2px white;
+}
+input {
+    width: 100px;
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+}
+input:hover {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+
+}
+div.bg {
+    border:10px inset transparent;
+    border-image: url("pic/bg11.gif") 5 5 round;
+    height: 1100px;
+}

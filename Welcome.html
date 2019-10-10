@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WELCOME</title>
+    <link rel="stylesheet" href="mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+    <script>
+    </script>
+</head>
+<style>
+    div.bg {
+       height: 1100px;
+       border:10px inset transparent;
+       border-image: url("pic/bg11.gif") 10 10 round;
+    }
+    div.text {
+        text-align: center;
+        position: relative;
+        width: 50%;
+    }
+    .image {
+        display: block;
+        width: 500px;
+        height: auto;
+    }
+   .overlay {
+       position: absolute;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+       height: 700px;
+       width: 1100px;
+       opacity: 0;
+       transition: 0.5s ease;
+       background-color: #505050;
+       margin-left: 15%;
+       margin-top: 20px;
+   }
+   .bg:hover .overlay {
+       opacity: 1;
+   }
+   .text2 {
+       color: white;
+       font-size:50px;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       -webkit-transform:translate(-50%, -50%);
+       -ms-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+       text-align: center;
+   }
+   b {
+       text-shadow: 5px 5px black;
+   }
+</style>
+<body class="bg">
+   <div class="bg">
+       
+      
+  <center>
+           <img class="bg2" src="bg3.jpg" class="image" > 
+           <div class="overlay">
+                    <div class="text2">
+                        <img src="bgwelcome.jpg" alt="">
+                    </div>
+           </div>
+           <img src="bg4.jpg" alt="">        
+           </center>
+           
+      
+   </div>
+
+</body>
+</html>
