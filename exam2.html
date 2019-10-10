@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+    <script>
+     var people=10;
+     var ticket=200;
+     var toTal=people*ticket;
+         
+        function myF1() {
+            document.getElementById("people").innerHTML=people;
+            document.getElementById("ticket").innerHTML=ticket;
+            document.getElementById("toTal").innerHTML=toTal;
+            
+        }
+
+
+    </script>
+    <style>
+       body {
+          color: white;
+          font-size:30px;
+      } 
+      h1 {
+          text-shadow: 2px 2px white;
+          font-size:50px;
+          letter-spacing: 5px;
+      }
+      fieldset {
+          width: 50%;
+          border-radius: 20px;
+          border: 5px solid blue;
+      }
+    </style>
+</head>
+<body class="bg">
+    <div class="bg">
+    <center> <h1>Ticket</h1>  <br>
+       <b> <br>
+    <fieldset>
+        <table>
+            <tr>
+                <td>จำนวนคน</td>
+                <td>:</td>
+                <td> <span id="people"></span> </td>
+                <td>คน</td>
+            </tr>
+            <tr>
+                <td>ราคาตั๋ว</td>
+                <td>:</td>
+                <td> <span id="ticket"></span> </td>
+                <td>บาท</td>
+            </tr>
+            <tr>
+                <td>จ่าย</td>
+                <td>:</td>
+                <td> <span id="toTal"></span> </td>
+                <td>บาท</td>
+            </tr>
+           
+        </table>
+    </fieldset>
+  <input type="button" value="คลิก" onclick="myF1();">
+  </center></div>
+</body>
+</html>
