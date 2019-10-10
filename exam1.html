@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script>
+     var enterHour=3;
+     var toTal=100*enterHour;
+     var pay=1000;
+     var change=pay-toTal;    
+     
+    </script>
+    <style>
+       body {
+          color: white;
+          font-size: 30px;
+      } 
+    </style>
+    <link rel="stylesheet" href="../mystyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+</head>
+<body class="bg">
+    <div class="bg">
+    <center> <h1>สอน Programing</h1>  <br>
+        เด็กชาย ก เรียนสอน Programing ชั่วโมงละ 100 บาท จำนวน 5 ชั่วโมง <br>
+    <fieldset>
+        <table>
+            <tr>
+                <td>จำนวนชั่วโมง</td>
+                <td>:</td>
+                <td> <span id="enterHour"></span> </td>
+                <td>ชั่วโมง</td>
+            </tr>
+            <tr>
+                <td>ราคาทั้งหมด</td>
+                <td>:</td>
+                <td> <span id="toTal"></span> </td>
+                <td>บาท</td>
+            </tr>
+            <tr>
+                <td>จ่าย</td>
+                <td>:</td>
+                <td> <span id="pay"></span> </td>
+                <td>บาท</td>
+            </tr>
+            <tr>
+                <td>ทอน</td>
+                <td>:</td>
+                <td> <span id="change"></span> </td>
+                <td>บาท</td>
+            </tr>
+        </table>
+    </fieldset>
+  <script>
+     document.getElementById("enterHour").innerHTML=enterHour;
+     document.getElementById("toTal").innerHTML=toTal;
+     document.getElementById("pay").innerHTML=pay;
+     document.getElementById("change").innerHTML=change;
+  </script></center></div>
+</body>
+</html>

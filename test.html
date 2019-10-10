@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../mystyle.css">
+    <script>
+     var fullName="Patsakorn Wongtanasombat";
+     var nickName="Boss";
+     var age="18";
+     var tel="0814047291";
+     var stdNo="62424201003";
+     var idCard="1350101603466";
+     var answer="My name is "+fullName+" \n " + "My Nick Name is "+nickName;
+    
+     //console.log (100*100);
+     //window.alert( "Hello "+fullName+"\n สบายดีบ่ ?");
+     
+    </script>
+    <style>
+        h1 {
+            text-shadow:2px 2px blue;
+        }
+
+      b {
+          color: blue;
+      }
+      fieldset {
+          border: 5px double blue;
+      }
+      body {
+          color: white;
+          font-size: 20px;
+      }
+    </style>
+</head>
+<body class="bg">
+    <div class="bg">
+    <h1>เขียน Java ขั้นพื้นฐาน</h1>
+    ชื่อ คือ <font color="red" id="message" > </font> <br>
+    ชื่อเล่น คือ  <b id="fullName"></b> <br>
+    ชื่อเล่น คือ <b id="nickName"></b> <br>
+    อายุ คือ <b id="age"></b> <br> <br>
+
+    My name is <script> document.write(fullName);</script> <br>
+    My nickname is <script> document.write(nickName);</script> <br>
+
+    <script>
+
+    document.getElementById("message").innerHTML=fullName+" ลองๆ ";
+    document.getElementById("fullName").innerHTML="Patsakorn Wongtanasombat";
+    document.getElementById("nickName").innerHTML="Boss";
+    document.getElementById("age").innerHTML="18";
+    function myFunction() {
+        document.getElementById(fullName).innerHTML="boss";
+    }
+
+    </script>
+
+ <fieldset>
+     <legend>ข้อมูลส่วนตัว</legend>
+     My name is <script> document.write(fullName);</script> <br>
+    My nickname is <script> document.write(nickName);</script> <br>
+ </fieldset> <br>
+ คำตอบ คือ <b id="answerr"></b>
+ <input type="button" value="Click" onclick="myFunction()"> 
+
+</div>
+</body>
+</html>

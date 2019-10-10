@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Prompt&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../mystyle.css">
+    <script>
+      var Price=25000;
+      var vatPrice=Price*0.07;
+      var netPrice=vatPrice+Price;
+    </script>
+    <style>
+       fieldset {
+           border: 5px double blue;
+           width: 50%;
+       }
+       h1 {
+           text-shadow: 2px 1px blue;
+       }
+       table,tr,td {
+           border: 0px solid skyblue;
+           background-color: blue;
+           color: white;
+       }
+       body {
+          color: white;
+          font-size: 20px;
+      }
+    </style>
+</head>
+<body class="bg">
+    <div class="bg">
+     <center><h1>NOTEBOOK</h1>
+   
+    <fieldset>
+        <legend>โปรแกรมคำนวณค่า NOTEBOOK</legend>
+        <table border="1">
+            <tr>
+                <td>ราคา NOTEBOOK</td>
+                <td>:</td>
+                <td> <script> document.write(Price) </script></td>
+                <td>บาท</td>
+            </tr>
+            <tr>
+                <td> ราคา VAT</td>
+                <td> :</td>
+                <td><script> document.write(vatPrice) </script> 
+         </td>
+                <td>บาท</td>
+            </tr>
+            <tr>
+                    <td>ราคาสุทธิ</td>
+                    <td>:</td>
+                    <td> <script> document.write(netPrice) </script></td>
+                    <td>บาท</td>
+            </tr>
+        </table>
+          
+         
+        
+    </fieldset></center>
+    </div>
+</body>
+</html>
